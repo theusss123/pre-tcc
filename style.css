@@ -6,3 +6,60 @@
     margin: 30px;
 }
 
+header img{
+    width: 200px;
+}
+
+.menu{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 200px;
+    display: inline-block;
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(0, 68, 140);
+    font-weight: 1000;
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    background-color: rgba(240, 248, 255, 0.781);
+
+}
+
+.banner-p img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.banner-m img{
+    width: 700px;
+    border-radius: 20px;
+    height: 210px;
+}
+
+.banner-p{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.banner-m{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.banner{
+    width: 100%;
+}
