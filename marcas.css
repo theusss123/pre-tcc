@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Manrope:wght@200..800&display=swap');
 
 *{ /* reset basico */
@@ -40,32 +41,9 @@ nav a{
 
 nav a:hover{
     background-color: rgba(240, 248, 255, 0.781);
-
 }
 
-.banner-p img{
-    width: 400px;
-    border-radius: 20px;
-}
-
-.banner-m img{
-    width: 700px;
-    border-radius: 20px;
-    height: 210px;
-}
-
-.banner-p{
-    display: inline-block;
-    margin-top: 60px;
-    margin-left: 80px;
-}
-
-.banner-m{
-    display: inline-block;
-    margin-left: 50px;
-}
-
-.h2-sobre{
+.titulo{
     font-family: "Concert One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -75,39 +53,10 @@ nav a:hover{
     margin-top: 80px;
 }
 
-.sobre{
-    text-align: center;
-}
-
-.banner{
-    width: 100%;
-}
-
-.card-sobre{
-    background-color: rgb(3, 101, 255);
-    text-align: center;
-    width: 300px;
-    padding: 10px;
-    border-radius: 10px;
-    color: white;
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.card-sobre:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-
-.sobre img{
-    width: 400px;
-    border-radius: 10px;
-}
-
-.div-sobre{
+.container{
     display: flex;
-    justify-content: space-evenly;
-    margin: 50px;
 }
 
+.img-bebidas{
+    width: 300px;
+}
