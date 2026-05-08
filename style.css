@@ -82,14 +82,27 @@ nav a:hover{
 .card-sobre{
     background-color: rgb(3, 101, 255);
     display: inline-block;
-    width: 250px;
+    width: 230px;
     text-align: center;
     margin-top: 80px;
     margin-left: 70px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+.fotos-sobre{
+    background-color: rgb(3, 101, 255);
+}
+
+.fotos-sobre img{
+    display: inline-block;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
 }
