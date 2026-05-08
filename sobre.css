@@ -10,6 +10,7 @@ header{
     background-color: rgb(3, 101, 255);
     padding-top: 30px;
     padding-bottom: 40px;
+
 }
 
 .logo{
@@ -43,22 +44,67 @@ nav a:hover{
 
 }
 
-article {
-    background-color: white;
+footer {
+    color: rgb(3, 101, 255);
+}
+
+#sobre{
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.portifólio{
+    background-color: rgb(3, 101, 255);
+    margin:10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+span{
+    font-size: 35px;
+}
+
+.texto-sobre {
     color: rgb(3, 101, 255);
     border-radius: 15px;
-}
-
-.div-sobre{
     display: inline-block;
-    width: 40%;
+    width: 700px;
+    padding: 15px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.div-sobre img{
-    margin-bottom: 300px;
-    width: 100%;
+.texto-sobre h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 54, 141);
+}
+
+.img-sobre{
+
+   width: 500px;
+   border-radius: 20px;
+   margin-bottom: 90px;
+   margin-left: 20px;
+}
+
+.img-dados{
+    width: 1000px;
+    border-radius: 20px;
+    margin-left: 110px;
 }
 
 footer {
     color: rgb(0, 0, 120);
 }
+
+.img-sobre img{
+    border-radius: 30px;
+    width: 620px;
+    margin-left: 9px;
+}
+

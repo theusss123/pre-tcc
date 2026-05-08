@@ -65,11 +65,7 @@ nav a:hover{
     margin-left: 50px;
 }
 
-.banner{
-    width: 100%;
-}
-
-.sobre h2{
+.h2-sobre{
     font-family: "Concert One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -79,15 +75,22 @@ nav a:hover{
     margin-top: 80px;
 }
 
+.sobre{
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+}
+
 .card-sobre{
     background-color: rgb(3, 101, 255);
     display: inline-block;
     width: 230px;
     text-align: center;
-    margin-top: 80px;
-    margin-left: 70px;
+    width: 300px;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 20px;
     color: white;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
@@ -106,3 +109,33 @@ nav a:hover{
     margin-bottom: 40px;
     border-radius: 20px;
 }
+
+.card-sobre:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.sobre img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.div-sobre{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+footer {
+    background-color: rgb(3, 101, 255);
+    color: white;
+}
+
+footer img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 520px;
+    margin-bottom: 20px;
+}
+
+
