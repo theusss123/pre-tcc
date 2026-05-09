@@ -108,3 +108,31 @@ footer {
     margin-left: 9px;
 }
 
+footer{
+    background-color: rgb(3, 101, 255);
+    color: white;
+}
+
+.logo img{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.redes-sociais{
+    display: inline-block;
+    margin-left:130px;
+}
+
+.redes-sociais img{
+    width: 30px;
+    margin: 10px;
+}
+
+.copyright{
+    display: inline-block;
+    margin-left:42px;
+    margin-bottom: 20px;
+}
+

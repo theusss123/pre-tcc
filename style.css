@@ -126,15 +126,31 @@ nav a:hover{
     margin: 50px;
 }
 
-footer {
+footer{
     background-color: rgb(3, 101, 255);
     color: white;
 }
 
-footer img{
+.logo img{
     width: 200px;
     margin-top: 20px;
-    margin-left: 520px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.redes-sociais{
+    display: inline-block;
+    margin-left:130px;
+}
+
+.redes-sociais img{
+    width: 30px;
+    margin: 10px;
+}
+
+.copyright{
+    display: inline-block;
+    margin-left:42px;
     margin-bottom: 20px;
 }
 

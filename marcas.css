@@ -53,15 +53,72 @@ nav a:hover{
     margin-top: 80px;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-}
-
 .container img{
-    width: 200px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 
-.img-bebidas{
-    width: 100px;
+
+.bebidas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto-left{
+    width: 300px;
+    background-color: rgb(3, 101, 255);
+    padding: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: white;
+    border-radius: 20px;
+}
+
+.texto-left:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.texto-right{
+    width: 300px;
+    background-color: rgb(3, 101, 255);
+    padding: 50px;
+    margin-left:250px;
+    margin-top: 50px;
+    color: white;
+    border-radius: 20px;
+}
+
+.texto-right:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+footer{
+    background-color: rgb(3, 101, 255);
+    color: white;
+}
+
+.logo img{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.redes-sociais{
+    display: inline-block;
+    margin-left:130px;
+}
+
+.redes-sociais img{
+    width: 30px;
+    margin: 10px;
+}
+
+.copyright{
+    display: inline-block;
+    margin-left:42px;
+    margin-bottom: 20px;
 }
