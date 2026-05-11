@@ -78,8 +78,8 @@ span{
 .texto-sobre h2{
     text-align: center;
     font-size: 50px;
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
     font-style: normal;
     color: rgb(0, 54, 141);
 }

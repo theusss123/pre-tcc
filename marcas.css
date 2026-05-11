@@ -73,6 +73,9 @@ nav a:hover{
     margin-top: 100px;
     color: white;
     border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .texto-left:hover{
@@ -88,6 +91,9 @@ nav a:hover{
     margin-top: 50px;
     color: white;
     border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .texto-right:hover{

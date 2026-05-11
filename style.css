@@ -43,26 +43,37 @@ nav a:hover{
 
 }
 
-.banner-p img{
-    width: 400px;
-    border-radius: 20px;
-}
-
 .banner-m img{
     width: 700px;
     border-radius: 20px;
     height: 210px;
 }
 
+.banner{
+    display: flex;
+}
+
 .banner-p{
     display: inline-block;
-    margin-top: 60px;
+    margin-top: 90px;
     margin-left: 80px;
+    background-color: rgb(3, 101, 255);
+    color: white; 
+    padding: 30px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    
 }
 
 .banner-m{
     display: inline-block;
     margin-left: 50px;
+    margin-top: 70px;
+    margin-right: 50px;
 }
 
 .h2-sobre{

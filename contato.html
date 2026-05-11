@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
+    <link rel="stylesheet" href="contato.css">
 </head>
 <body>
     <header>
-        <div class="logo"><a href="./index.html"><img src="./imagens/ambev logo" alt="Logo Ambev" width="100px"></a></div>
+        <div class="logo"><a href="./index.html"><img src="./imagens/logo ambev branca.png" alt="Logo Ambev"></a></div>
         <nav class="menu">
             <a href="./index.html">Início</a>
             <a href="./marcas.html">Marcas</a>
@@ -16,7 +17,32 @@
         </nav>
     </header>
     <main>
+        <section class="banner-contato">
+            <div class="banner">
+                <div class="banner-fale">
+                    <h1>FALE COM A GENTE</h1>
+                    <br>
+                    <p>Ficou alguma dúvida ou quer compartilhar <br> algo com a ambev. Conta para a gente usando os nossos <br> canais de contato</p>
+                </div>
+                <img src="./imagem/pessoa-celular.jpg" alt="Pessoa no celular">
+            </div>
+        </section>
+        <section class="formulario">
+            <h1>Fale Conosco</h1>
+            <form action="#">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" placeholder="Nome">
 
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="email">
+
+                <label for="numero">Número</label>
+                <input id="numero" type="tel" placeholder="Número">
+
+                <label for="mensagem">Mensagem</label>
+                <input id="mensagem" type="text" placeholder="Mensagem">
+            </form>
+        </section>
     </main>
     <footer>
         <a class="logo" href="./index.html"><img src="./imagens/logo ambev branca.png" alt="Logo Ambev"></a>
