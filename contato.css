@@ -49,16 +49,6 @@ nav a:hover{
   
 }
 
-.formulario{
-    background-color: rgb(3, 101, 255);
-    color: white;
-    font-family: "Concert One", sans-serif;
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    display: flex;
-}
-
 .banner-contato{
     display: flex;
     align-items: center;
@@ -85,6 +75,49 @@ nav a:hover{
     text-align: center;
     font-size: 20px;
     
+}
+
+.formulario{
+    background-color: rgb(3, 101, 255);
+    color: white;
+    font-family: "Concert One", sans-serif;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 20px;
+    flex-direction: column;
+
+}
+
+.formulario h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.caixa-form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    display: flex;
+}
+
+#mensagem{
+    height: 200px;
+
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
 }
 
 footer{
